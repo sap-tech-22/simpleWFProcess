@@ -1,0 +1,7 @@
+---
+applications:
+ - name: wfTR_process
+   host: wfTR_process
+   buildpack: nodejs_buildpack
+   memory: 128M
+   command: node server
